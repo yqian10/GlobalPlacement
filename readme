@@ -1,0 +1,16 @@
+How to run:
+
+Add the project folder to the eclipse, then run it.
+
+
+How to set up parameters: 
+
+(1) change the line 342 (String pl_path) to the path where stores .pl file 
+(2) change the line 343 (String nodes_path) to the path where stores .nodes file
+(3) change the line 344 (String nets_path) to the path where stores .nets file
+(4) change the line 345 (String output_path) to the path where you want to output your file
+(5) change the line 294 alpha parameter for each constraints:
+
+	for the 25 % overlapping constraint, the alpha value is set during the range 0.25-0.4
+
+	for the 5 % overlapping constraint, the alpha value is  set during the range 0.8-0.95
